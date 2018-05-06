@@ -1,0 +1,254 @@
+.bord, .border-bottom-new, .bottom-two-btn {
+  background-image: linear-gradient(0, #e1e1e1, #e1e1e1 50%, transparent 50%);
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 1px;
+}
+
+.comments-list .comment-item, .comments-tags, .standardBord {
+  background-repeat: repeat-x;
+  background-position: 0 bottom;
+  background-size: auto 1px;
+}
+
+.star {
+  display: inline-block;
+  width: 66px;
+  height: 12px;
+  vertical-align: middle;
+  background: url("../images/star.png") no-repeat;
+  background-size: 86px auto;
+}
+
+.hide {
+  display: none;
+}
+
+.C_header {
+  height: 45px;
+  display: flex;
+  background-color: #fff;
+  align-items: center;
+  justify-content: space-between;
+  color: #333;
+  padding: 0 15px;
+  position: relative;
+  z-index: 300;
+}
+
+.C_header .left-btn {
+  display: flex;
+  align-items: center;
+}
+
+.C_header .left-btn .back-icon {
+  border: 1px solid #f63;
+  width: 12px;
+  height: 12px;
+  border-top: none;
+  border-right: none;
+  transform: rotate(45deg);
+}
+
+.C_header .left-btn .text {
+  font-size: 13px;
+  line-height: 13px;
+}
+
+.C_header .title {
+  font-size: 16px;
+}
+
+.C_header .right-btn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.C_header .right-btn .text {
+  font-size: 13px;
+  line-height: 13px;
+}
+
+.J_reviewlist {
+  background-color: #fff;
+}
+
+.J_reviewlist .standardBord {
+  height: 16px;
+  background-color: #f0f0f0;
+}
+
+.J_reviewlist .comments-list {
+  display: block;
+  margin-top: 0;
+  font-size: 0;
+}
+
+.J_reviewlist .comments-list .comment-item {
+  display: -webkit-box;
+  padding: 10px 15px 10px 0;
+}
+
+.J_reviewlist .comments-list .comment-item .user-pic {
+  margin-right: 10px;
+  width: 56px;
+  padding-right: 0;
+}
+
+.J_reviewlist .comments-list .comment-item .user-pic .pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+
+.J_reviewlist .comments-list .comment-item .user-pic .level {
+  height: 15px;
+  position: absolute;
+  margin: 35px 0 0 -29px;
+}
+
+.J_reviewlist .comments-list .comment-item .comment-detail {
+  -webkit-box-flex: 1;
+}
+
+.J_reviewlist .comments-list .comment-item .comment-detail .comment {
+  display: block;
+}
+
+.J_reviewlist .comments-list .comment-item .comment-detail .comment .username {
+  font-size: 15px;
+  line-height: 15px;
+  color: #446889;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.J_reviewlist .comments-list .comment-item .comment-detail .comment .time {
+  font-size: 12px;
+  line-height: 15px;
+  color: #999;
+  position: absolute;
+  right: 15px;
+}
+
+.J_reviewlist .comments-list .comment-item .comment-detail .comment .info {
+  line-height: 12px;
+  position: relative;
+}
+
+.J_reviewlist .comments-list .comment-item .comment-detail .comment .info span {
+  font-size: 12px;
+  margin-right: 5px;
+}
+
+.J_reviewlist .comments-list .comment-item .comment-detail .comment .info .avg-price {
+  color: #333;
+  vertical-align: -5px;
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+.J_reviewlist .comments-list .comment-item .comment-detail .comment .info .star-40 {
+  background-position: 0 -49px;
+}
+
+.J_reviewlist .comments-list .comment-item .comment-detail .comment .comment-entry {
+  padding-bottom: 0;
+  margin-top: 8px;
+  display: block;
+  font-size: 14px;
+  line-height: 20px;
+  word-wrap: break-word;
+  color: #323232;
+}
+
+.J_reviewlist .comments-list .comment-item .comment-detail .comment .get-all {
+  color: #446889;
+  font-size: 12px;
+  line-height: 12px;
+  display: inline-block;
+  margin-top: 8px;
+}
+
+.J_reviewlist .comments-list .comment-item .comment-detail .dishPic {
+  margin-top: 10px;
+  overflow: auto;
+}
+
+.J_reviewlist .comments-list .comment-item .comment-detail .dishPic .imgFrame {
+  font-size: 0;
+  width: 33%;
+  padding: 0 3px;
+  box-sizing: border-box;
+  margin-bottom: 6px;
+  float: left;
+  position: relative;
+}
+
+.J_reviewlist .comments-list .comment-item .comment-detail .dishPic .imgFrame img {
+  width: 100%;
+  position: relative;
+  display: inline-block;
+}
+
+.J_reviewlist .comments-list .comment-item .comment-detail .dishPic .imgFrame .imgNum {
+  background-color: #000;
+  position: absolute;
+  opacity: .55;
+  border-radius: 9px;
+  color: #fff;
+  font-size: 11px;
+  padding: 0 4px;
+  display: flex;
+  align-items: center;
+  right: 7px;
+  bottom: 4px;
+}
+
+.J_reviewlist .comments-list .comment-item .comment-detail .dishPic .imgFrame .imgNum i {
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../images/imgnum.png");
+  width: 11px;
+  height: 10px;
+  margin-right: 2px;
+}
+
+.J_reviewlist .comments-list .comment-item .comment-detail .info {
+  line-height: 12px;
+  color: #777;
+  font-size: 0;
+  height: 12px;
+  margin-top: 5px;
+}
+
+.J_reviewlist .comments-list .comment-item .comment-detail .info span {
+  font-size: 12px;
+  margin-right: 5px;
+}
+
+.dianping {
+  display: block;
+  padding: 10px 0 0 10px;
+  position: relative;
+}
+
+.dianping .wenben {
+  width: 95%;
+  height: 80px;
+}
+
+.dianping .btn {
+  display: block;
+  background: #f63;
+  text-align: center;
+  line-height: 36px;
+  color: #fff;
+  width: 30%;
+  height: 36px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  text-align: center;
+}

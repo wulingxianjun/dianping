@@ -1,0 +1,860 @@
+@charset "UTF-8";
+.de_header {
+  height: 0.6rem;
+  line-height: 0.6rem;
+  background-color: #f0f0f0;
+  padding: 0 0.133333rem;
+  text-align: center;
+  color: #f63;
+  position: relative;
+  z-index: 300;
+}
+
+.de_header .back {
+  padding-left: 0.213333rem;
+  position: absolute;
+  left: 0.133333rem;
+  color: #f63;
+  font-size: 0.186667rem;
+}
+
+.de_header .back:before {
+  border: #f63 solid 3px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-top: -8px;
+  display: block;
+  content: '\20';
+  width: 12px;
+  height: 12px;
+  border-top: none;
+  border-right: none;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.de_header .back-gray {
+  color: #333;
+  font-size: 0.186667rem;
+}
+
+.de_header .back-gray:before {
+  border-color: #646464;
+}
+
+.de_header .info {
+  color: #333;
+  font-size: 16px;
+}
+
+.group-info .headbar {
+  position: relative;
+}
+
+.group-info .headbar .cont {
+  position: absolute;
+  z-index: 999;
+  bottom: 0;
+  left: 0;
+  padding: 10px 15px;
+  width: 100%;
+  box-sizing: border-box;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.6)));
+}
+
+.group-info .headbar .cont h3 {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  margin-bottom: 3px;
+}
+
+.group-info .headbar .cont p {
+  color: #fff;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.group-info .headbar .swipe-page-ctrl {
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  font-size: 9px;
+  line-height: 9px;
+  color: #666;
+  padding: 5px 3px 4px;
+  text-align: center;
+}
+
+.group-info .headbar .swipe-page-ctrl strong {
+  font-weight: 400;
+  color: #fff;
+}
+
+.group-info .cost-box {
+  padding-left: 15px;
+  background: url(//www.dpfile.com/mod/app-m-tuangou/1.3.72/css/img/repeat-x.png) repeat-x 0 bottom;
+  background-size: auto 10px;
+  background-color: #fff;
+}
+
+.group-info .cost-box .buy-box {
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  margin-top: 0;
+  height: 50px;
+  -webkit-box-pack: justify;
+  background: url(//www.dpfile.com/mod/app-m-tuangou/1.3.72/css/img/repeat-x.png) repeat-x 0 bottom;
+  background-size: auto 10px;
+  line-height: 50px;
+}
+
+.group-info .cost-box .buy-box .sum {
+  font-size: 30px;
+  margin-right: 3px;
+}
+
+.group-info .cost-box .buy-box .price {
+  padding-right: 0;
+  display: block;
+}
+
+.group-info .cost-box .buy-box .past {
+  -webkit-box-flex: 1;
+  -webkit-box-align: end;
+  display: -webkit-box;
+  margin-bottom: 9px;
+  line-height: 12px;
+}
+
+.group-info .cost-box .buy-box .past .t {
+  margin-left: 10px;
+  font-size: 14px;
+  line-height: 12px;
+  margin-top: 0;
+}
+
+.group-info .cost-box .buy-box .last {
+  padding-top: 8px;
+  margin-right: 10px;
+}
+
+.group-info .cost-box .buy-box .buy-btn {
+  height: 34px;
+  width: 105px;
+  color: #fff;
+  background-color: #f63;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 35px;
+  display: block;
+  font-size: 16px;
+}
+
+.group-info .cost-box .advantage {
+  overflow: hidden;
+  height: 45px;
+  line-height: 45px;
+  color: #666;
+  margin: 0px;
+  padding-left: 0px;
+}
+
+.group-info .cost-box .advantage li {
+  float: left;
+  width: 50%;
+  font-size: 12px;
+}
+
+.group-info .cost-box .advantage i {
+  background-image: url(//www.dpfile.com/mod/app-m-tuangou/1.3.72/css/img/comm.png);
+  background-size: 25px auto;
+  background-position: 0 -275px;
+  display: inline-block;
+  height: 18px;
+  width: 18px;
+  vertical-align: sub;
+  margin-right: 5px;
+}
+
+.group-info .cost-box .advantage .dated {
+  background-position: 0 -296px;
+}
+
+.detail-info {
+  background: url(//www.dpfile.com/mod/app-m-tuangou/1.3.72/css/img/repeat-x.png) repeat-x 0 bottom;
+  background-size: auto 10px;
+  padding: 0;
+  width: 100%;
+  margin-top: 10px;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.detail-info .con {
+  background: url(//www.dpfile.com/mod/app-m-tuangou/1.3.72/css/img/repeat-x.png) repeat-x 0 bottom;
+  background-size: auto 10px;
+  background-color: #fff;
+}
+
+.detail-info .con .all-shop {
+  padding: 0 10px 0 15px;
+}
+
+.detail-info .con .all-shop i {
+  float: right;
+  margin-top: 17px;
+  margin-right: 5px;
+}
+
+.detail-info .con .tit {
+  background: url(//www.dpfile.com/mod/app-m-tuangou/1.3.72/css/img/repeat-x.png) repeat-x 0 bottom;
+  background-size: auto 10px;
+  height: 40px;
+  line-height: 42px;
+  margin-left: 0;
+  font-weight: 400;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.detail-info .con .info {
+  background: url(//www.dpfile.com/mod/app-m-tuangou/1.3.72/css/img/repeat-x.png) repeat-x 0 bottom;
+  background-size: auto 10px;
+  padding-left: 15px;
+  position: relative;
+}
+
+.detail-info .con p {
+  color: #666;
+}
+
+.J_nearby_shop .detail-info {
+  background: url(//www.dpfile.com/mod/app-m-tuangou/1.3.72/css/img/repeat-x.png) repeat-x 0 bottom;
+  background-size: auto 10px;
+  padding: 0;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 10px;
+  background-color: #fff;
+}
+
+.J_nearby_shop .detail-info .hd {
+  background: url(//www.dpfile.com/mod/app-m-tuangou/1.3.72/css/img/repeat-x.png) repeat-x 0 bottom;
+  background-size: auto 10px;
+  height: 40px;
+  line-height: 42px;
+  margin-left: 15px;
+  color: #999;
+  font-weight: 400;
+  font-size: 14px;
+  display: block;
+  position: relative;
+}
+
+.J_nearby_shop .detail-info .shoplist .flex-box {
+  padding-left: 15px;
+  display: -webkit-box;
+}
+
+.J_nearby_shop .detail-info .shoplist .flex-box aside {
+  background: url(//www.dpfile.com/mod/app-m-tuangou/1.3.72/css/img/repeat-right.png) repeat-y right;
+  background-size: 1px auto;
+  -webkit-box-flex: 1;
+  margin: 15px 0;
+}
+
+.J_nearby_shop .detail-info .shoplist .flex-box aside h3 {
+  color:#666;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.J_nearby_shop .detail-info .shoplist .flex-box aside p {
+  font-size: 14px;
+  margin-top: 15px;
+  line-height: 14px;
+}
+
+.J_nearby_shop .detail-info .shoplist .flex-box aside .f-r {
+  color:#666;
+  margin-right: 10px;
+  float: right;
+  margin-top: 2px;
+}
+
+.J_nearby_shop .detail-info .shoplist .star-pic {
+  width: 86px;
+  height: 16px;
+  background: url(//www.dpfile.com/mod/app-m-tuangou/1.3.72/css/img/detail-star0.png) no-repeat;
+  background-size: 100% 100%;
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 1px;
+}
+
+.J_nearby_shop .detail-info .shoplist .star-pic i {
+  background: url(//www.dpfile.com/mod/app-m-tuangou/1.3.72/css/img/detail-star.png) no-repeat;
+  display: inline-block;
+  height: 16px;
+  overflow: hidden;
+  background-size: auto 100%;
+}
+
+.J_nearby_shop .detail-info .shoplist .call-link {
+  display: block;
+  margin: 15px 0;
+  padding: 0 22px;
+  display: box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  -webkit-box-align: center;
+  -ms-box-align: center;
+  box-align: center;
+}
+
+.J_nearby_shop .detail-info .shoplist .call-link i {
+  width: 25px;
+  height: 25px;
+  margin-left: 0;
+  background: url(//www.dpfile.com/mod/app-m-tuangou/1.3.72/css/img/mobile.png) no-repeat;
+  background-size: 25px auto;
+  background-position: center 0;
+  display: block;
+}
+
+.J_nearby_shop .detail-info .shoplist .col-list {
+  padding-left: 15px;
+}
+
+.J_nearby_shop .detail-info .shoplist .col-list .item {
+  padding: 14px 0;
+  line-height: 14px;
+  font-size: 14px;
+  color: #333;
+  position: relative;
+  display: box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+}
+
+.J_nearby_shop .detail-info .shoplist .col-list .item .blo {
+  display: box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  -webkit-box-align: center;
+  -ms-box-align: center;
+  box-align: center;
+  margin-right: 20px;
+}
+
+.J_nearby_shop .detail-info .shoplist .col-list .item .blo .icon-comm.location {
+  background-position: 0 -58px;
+  margin-right: 3px;
+}
+
+.group-detail .con .all-shop {
+  height: 45px;
+  line-height: 45px;
+  font-size: 14px;
+  color: #333;
+  padding: 0 10px 0 15px;
+}
+
+.group-detail .info {
+  padding: 0 0 10px 0;
+}
+
+.group-detail .info h3 {
+  margin-left: 0;
+  margin-bottom: 0;
+  margin-right: -19px;
+}
+
+.group-detail .info h3 .icon-comm.detail {
+  background-position: 0 -38px;
+  margin-left: 4px;
+}
+
+.group-detail .detail-box {
+  font-size: 16px;
+}
+
+.group-detail .detail-box p {
+  line-height: 20px;
+  font-size: 14px;
+  margin: 7px 0;
+}
+
+.group-detail .detail-box .detail-table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  line-height: 22px;
+  margin-bottom: 15px;
+}
+
+.group-detail .detail-box .detail-table thead {
+  display: none;
+}
+
+.group-detail .detail-box .detail-table th:first-child {
+  text-align: left;
+}
+
+.group-detail .detail-box .detail-table th {
+  text-align: right;
+  color: #999;
+  font-weight: 400;
+}
+
+.group-detail .detail-box .detail-table th:last-child {
+  text-align: center;
+  padding: 10px 5px 10px 0;
+}
+
+.group-detail .detail-box .detail-table tr {
+  background: url(//www.dpfile.com/mod/app-m-tuangou/1.3.72/css/img/repeat-x.png) repeat-x 0 bottom;
+  background-size: auto 10px;
+}
+
+.group-detail .detail-box .detail-table tr.total .tc {
+  color: #999;
+  text-decoration: line-through;
+}
+
+.group-detail .detail-box .detail-table tr.total .tc strong {
+  margin-top: 5px;
+  color: #f63;
+  display: inline-block;
+}
+
+.group-detail .detail-box .detail-table td {
+  padding: 10px 0;
+}
+
+.group-detail .detail-box .detail-table td:first-child {
+  white-space: normal;
+}
+
+.group-detail .detail-box .detail-table td.tc {
+  text-align: right;
+}
+
+.group-detail .detail-box .detail-table td.tc:nth-child(3) {
+  text-align: center;
+  text-indent: 10px;
+}
+
+.group-detail .all-shop {
+  padding: 0 10px 0 15px;
+}
+
+.title-item {
+  background: #fff;
+  font-weight: 400;
+  padding-left: 15px;
+  font-size: 15px;
+  height: 45px;
+  line-height: 45px;
+  color: #323232;
+  border-bottom: 1px solid #ccc;
+  margin-top: 10px;
+  position: relative;
+}
+
+.title-item .arrowent {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  background-size: 8px 14px;
+  margin-top: -4px;
+  border: 2px solid #bbb;
+  transform: rotate(45deg);
+  width: 8px;
+  height: 8px;
+  border-bottom: none;
+  border-left: none;
+  -webkit-transform: rotate(45deg);
+}
+
+.comments-list {
+  background: #fff;
+  display: block;
+  padding-left: 15px;
+  margin-top: 0;
+  font-size: 0;
+}
+
+.comments-list .comment-item {
+  display: -webkit-box;
+  padding: 10px 15px 10px 0;
+}
+
+.comments-list .comment-item .user-pic {
+  margin-right: 10px;
+  width: 56px;
+  padding-right: 0;
+}
+
+.comments-list .comment-item .user-pic .pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+
+.comments-list .comment-item .user-pic .level {
+  height: 15px;
+  position: absolute;
+  margin: 35px 0 0 -29px;
+}
+
+.comments-list .comment-item .comment-detail {
+  -webkit-box-flex: 1;
+}
+
+.comments-list .comment-item .comment-detail .comment {
+  display: block;
+}
+
+.comments-list .comment-item .comment-detail .comment .username {
+  font-size: 15px;
+  line-height: 15px;
+  color: #446889;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.comments-list .comment-item .comment-detail .comment .time {
+  font-size: 12px;
+  line-height: 15px;
+  color: #999;
+  position: absolute;
+  right: 15px;
+}
+
+.comments-list .comment-item .comment-detail .comment .info {
+  line-height: 12px;
+  position: relative;
+}
+
+.comments-list .comment-item .comment-detail .comment .info span {
+  font-size: 12px;
+  margin-right: 5px;
+}
+
+.comments-list .comment-item .comment-detail .comment .info .avg-price {
+  color: #333;
+  vertical-align: -5px;
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+.comments-list .comment-item .comment-detail .comment .info .star-40 {
+  background-position: 0 -49px;
+}
+
+.comments-list .comment-item .comment-detail .comment .comment-entry {
+  padding-bottom: 0;
+  margin-top: 8px;
+  display: block;
+  font-size: 14px;
+  line-height: 20px;
+  word-wrap: break-word;
+  color: #323232;
+}
+
+.comments-list .comment-item .comment-detail .comment .get-all {
+  color: #446889;
+  font-size: 12px;
+  line-height: 12px;
+  display: inline-block;
+  margin-top: 8px;
+}
+
+.comments-list .comment-item .comment-detail .dishPic {
+  margin-top: 10px;
+  overflow: auto;
+}
+
+.comments-list .comment-item .comment-detail .dishPic .imgFrame {
+  font-size: 0;
+  width: 33%;
+  padding: 0 3px;
+  box-sizing: border-box;
+  margin-bottom: 6px;
+  float: left;
+  position: relative;
+}
+
+.comments-list .comment-item .comment-detail .dishPic .imgFrame img {
+  width: 100%;
+  position: relative;
+  display: inline-block;
+}
+
+.comments-list .comment-item .comment-detail .dishPic .imgFrame .imgNum {
+  background-color: #000;
+  position: absolute;
+  opacity: .55;
+  border-radius: 9px;
+  color: #fff;
+  font-size: 11px;
+  padding: 0 4px;
+  display: flex;
+  align-items: center;
+  right: 7px;
+  bottom: 4px;
+}
+
+.comments-list .comment-item .comment-detail .dishPic .imgFrame .imgNum i {
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../images/imgnum.png");
+  width: 11px;
+  height: 10px;
+  margin-right: 2px;
+}
+
+.comments-list .comment-item .comment-detail .info {
+  line-height: 12px;
+  color: #777;
+  font-size: 0;
+  height: 12px;
+  margin-top: 5px;
+}
+
+.comments-list .comment-item .comment-detail .info span {
+  font-size: 12px;
+  margin-right: 5px;
+}
+
+.buy-know {
+  width: 100%;
+  overflow: hidden;
+  color: #333;
+}
+
+.buy-know .con {
+  padding: 0 0 12px 15px;
+  font-size: 14px;
+}
+
+.buy-know .con .tit {
+  background: url(//www.dpfile.com/mod/app-m-tuangou/1.3.72/css/img/repeat-x.png) repeat-x 0 bottom;
+  background-size: auto 10px;
+  height: 40px;
+  line-height: 42px;
+  margin-left: 0;
+  font-weight: 400;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.buy-know .con .purchase-notes {
+  font-size: 14px;
+  padding: 0;
+}
+
+.buy-know .con .purchase-notes dl {
+  padding: 5px 0 5px 0;
+  background: url(//www.dpfile.com/mod/app-m-tuangou/1.3.72/css/img/repeat-x.png) repeat-x 0 bottom;
+  background-size: auto 10px;
+}
+
+.buy-know .con .purchase-notes dl dt {
+  line-height: 28px;
+  font-size: 13px;
+  display: block;
+  color: #999;
+}
+
+.buy-know .con .purchase-notes dl dd {
+  line-height: 20px;
+  width: 90%;
+  color: #333;
+}
+
+.buy-know .con .listitem {
+  margin: 7px 0;
+}
+
+.buy-know .con p {
+  color: #666;
+}
+
+.buy-know .con .listitem:before {
+  content: "• ";
+  color: #999;
+  position: absolute;
+  left: 2px;
+}
+
+.buy-know .tit {
+  margin-left: -15px;
+  width: 102%;
+}
+
+.buy-know .tit .icon-comm.buy {
+  background-position: 0 -19px;
+  margin-left: 4px;
+}
+
+.buy-now {
+  display: block;
+  height: 40px;
+  margin: 10px 9px;
+  color: #fff;
+  background-color: #f63;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.buy-now span {
+  display: block;
+  color: #fff;
+  line-height: 40px;
+  font-size: 18px;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px 5px;
+  font-weight: 400;
+  font-size: 12px;
+  padding-top: 15px;
+}
+
+.footer a {
+  color: #adadad;
+  line-height: 28px;
+}
+
+.footer em {
+  color: #8c8c8c;
+  padding: 0 12px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.footer .copyright {
+  color: #d1d1d1;
+  margin-top: 20px;
+  text-shadow: 0 1px 1px #fff;
+}
+
+.purchase-notes {
+  font-size: 14px;
+  padding: 0;
+  color: #333;
+}
+
+.purchase-notes dl {
+  padding: 10px 12px 10px 12px;
+  background: url(//www.dpfile.com/mod/app-m-tuangou/1.3.72/css/img/repeat-x.png) repeat-x 0 bottom;
+  background-size: auto 10px;
+}
+
+.purchase-notes dl dt {
+  line-height: 20px;
+  font-size: 13px;
+  display: block;
+  color: #999;
+}
+
+.purchase-notes dl dd {
+  line-height: 20px;
+  width: 90%;
+  color: #333;
+}
+
+.detail-box dl {
+  margin-bottom: 5px;
+}
+
+.detail-box dl dt {
+  color: #999;
+}
+
+.icon-comm {
+  background: url(//www.dpfile.com/mod/app-m-tuangou/1.3.72/css/img/icon-comm.png) center 0 no-repeat;
+  background-size: 14px auto;
+  display: inline-block;
+  width: 14px;
+  position: relative;
+  top: 2px;
+  height: 14px;
+}
+
+.buy-box {
+  margin-top: 17px;
+}
+
+.buy-box .price {
+  font-size: 21px;
+  padding-right: 9px;
+}
+
+.price {
+  color: #f63;
+}
+
+.o-price {
+  text-decoration: line-through;
+}
+
+#slider {
+  overflow: hidden;
+  width: 375px;
+  height: 233.33px;
+  visibility: visible;
+  position: relative;
+}
+
+#slider ul {
+  position: absolute;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+#slider ul li {
+  width: 375px;
+  height: 233.33px;
+  float: left;
+}
+
+#slider img {
+  width: 100%;
+  height: 233.33px;
+  display: block;
+}
+
+.notice-text {
+  color: #999;
+  padding-left: 5px;
+  font-size: 10px;
+}
+
+.arrow-ent {
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+  border-right: 2px solid #ccc;
+  border-bottom: 2px solid #ccc;
+  cursor: pointer;
+}
+
+.arrow-ent.right {
+  -webkit-transform: rotate(-45deg);
+}

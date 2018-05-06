@@ -1,0 +1,133 @@
+body{background:#f0f0f0;    font-family: Hiragino Sans GB,Arial,Helvetica,"宋体",sans-serif;font-size: 16px;}
+*{margin:0;padding: 0;    outline: 0;}
+.lg_top{
+    display:flex;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    font-size: 0.24rem;
+    background:#fcfcfc;
+    border-bottom:0.013333rem solid #f63;
+    padding:0 0.133333rem;
+}
+.lg_top .zuo{flex:1;}
+.lg_top .zhong{flex:3;text-align: center;}
+.lg_top .jia{flex:1;}
+.lg_main{
+    display:flex;
+    height: 1.2rem;
+    line-height: 0.6rem;
+    font-size: 0.213333rem;
+    background:#fff;
+    padding:0 0.186667rem;
+    margin-top:0.213333rem;
+    flex-direction: column;
+}
+.lg_main .user{flex:1;display:flex;border-bottom:0.013333rem solid #eee;}
+.lg_main .user .yonghu{flex:1;}
+.lg_main .user .username{flex:4;}
+.lg_main .pass{flex:1;display:flex;}
+.lg_main .pass .mima{flex:1;}
+.lg_main .pass .password{flex:4;}
+.dl_btn{width: 4.6rem;height: 0.533333rem;background:#f63;font-size: 0.186667rem;color:#fff;text-align: center;line-height: 0.533333rem;border-radius: 4px;margin:0.2rem auto;}
+.zc_btn{width: 4.6rem;height: 0.533333rem;background:#f63;font-size: 0.186667rem;color:#fff;text-align: center;line-height: 0.533333rem;border-radius: 4px;margin:0.2rem auto;}
+.wang{font-size: 0.186667rem;color: #466889;padding-left:0.186667rem;padding-right:0.186667rem;}
+
+.shangpin{
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #999;
+}
+.shuji{background:#fff;padding:0 15px;color: #999;font-weight: 600;}
+.shuji .xiaoji .xj{color:#000;}
+.shuji .liang{height: 41px;line-height: 41px;}
+.shuji .shuliang{border-bottom:1px solid #ddd;}
+.shuji .shuliang .weizhi{
+    font-size: 20px;
+    line-height: 28px;
+    border: 1px solid #bbb;
+    color: #bbb;
+    text-align: center;
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    border-radius: 2px;
+    font-weight: 400;
+}
+.shuji .shuliang .weizhi2{margin-top: 6px;}
+.shuji .shuliang .jia{margin-left:8px;}
+.shuji .shuliang .num{
+    width: 42px;
+    border: 1px solid #bbb;
+    color: #333;
+    font-size: 15px;
+    line-height: 28px;
+    text-align: center;
+    margin-left: 8px;}
+.quan{
+    height: 45px;
+    font-size: 15px;
+    line-height: 45px;
+    color: #999;
+    padding:0 15px;
+    background:#fff;
+    margin:10px 0;
+    font-weight: 600;
+}
+.quan .dayu{font-size: 24px;font-weight: 400;}
+
+/*首页样式*/
+#myCode{background:#fff;}
+#header ul{display:flex;height:50px;justify-content: space-between;align-items: center;text-align:center;background-color: #f63;padding:0 10px;}
+#header ul li:nth-child(1){max-width: 60px;font-size: 16px;color:#fff;padding-right: 17px;position: relative;}
+#header ul li:nth-child(1)::after{ border: 1px solid #fff;position: absolute;right: 2px;top: 60%;margin-top: -8px;display: block;content: "";width: 8px;height: 8px;border-top: none;border-right: none;transform: rotate(-45deg);}
+#header .search{flex:1;width: 100%;padding: 0 10px;}
+#header .search input{display: block;width: 90%;height: 30px;background-color: #fff;padding: 0 0 0 30px;font-size: 14px;border-radius: 25px;border:0 none;}
+#header ul li:nth-child(3){width: 28px;}
+#header ul li:nth-child(3) i{font-size: 30px;color:#fff;}
+
+
+.carousel {height: 150px;margin: 0 auto;overflow: hidden;position: relative;}
+        
+.carousel .slide {width: 100%;height: 150px;}
+
+.carousel li {position: absolute;}
+
+.carousel img {width: 100%;height: 150px;}
+
+.carousel .bullet {width: 100%;position: absolute;bottom: 10px;margin: 0 auto;text-align: center;z-index: 10;
+}
+
+.carousel span {width: 8px;height: 8px;border-radius:50%;background: white;display: inline-block;margin-right: 10px;
+}
+
+.carousel .active {background: #f63;}
+
+.carousel .image-enter-active {transform: translateX(0);transition: all 1s ease;}
+
+.carousel .image-leave-active {transform: translateX(-100%);transition: all 1s ease;}
+
+.carousel .image-enter {transform: translateX(100%);}
+
+.carousel .image-leave {transform: translateX(0);}
+
+
+#nav ul{display:flex;flex-wrap: wrap;  align-items: center;border-bottom: 1px solid #E1E1E1;}
+#nav ul li{width: 20%;height: 87px;padding: 8px 0;display:flex;flex-direction: column;text-align: center;justify-content: center;}
+#nav ul li a{display: inline-block;height: 87px;padding-top: 13px;}
+#nav ul li img{width: 44px;height: 44px;}
+#nav ul li p{padding-top:10px;font-size: 14px;color:#333;}
+#nav ul li:nth-child(even) i{color:#79A0ED;}
+
+#main{flex:1;overflow-x: hidden;}
+#main h3{height: 30px;line-height: 40px;padding-left: 15px;font-size: 14px;color: #777;}
+#main ul{display:flex;flex-direction: column;padding: 0 15px;}
+#main ul li{height: 110px;display:flex;border-bottom: 1px solid #E1E1E1;padding-top: 10px;}
+#main ul li h4{width: 100%; font-size: 17px;font-weight: 700;color: #111;padding-right: 8px;overflow: hidden;}
+#main .picture{width: 90px;height: 90px;}
+#main .picture img{width: 90px;height: 90px;}
+#main li .content{flex:1;padding-left: 10px;}
+#main li .content p{width: 100%;overflow: hidden;font-size: 14px;color: #777;padding-top: 9px;line-height: 23px;/*padding-bottom: 13px;*/}
+#main li .content .price{display: flex;justify-content: space-between;height: 22px;line-height: 22px;}
+#main li .content .price p{padding-top: 0;}
+#main li .content .price span{width: 100%;display: inline-block;font-size: 12px;color: #777;text-align: right;}
+#main li .content .price i{color: #f63;font-size: 20px;line-height: 24px;text-decoration: none;}
